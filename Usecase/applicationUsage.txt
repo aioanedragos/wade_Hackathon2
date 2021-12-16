@@ -1,0 +1,5 @@
+Parents from a city want to create a secret santa for their kids. A parent give gift to another child and one parents are the Santa and deliver the giths. 
+To organize this the mayor propose SurprisedKids application to register every child and every parent interested to be the santa for the kids. 
+The parents  register their kids in the application with some information and have chance to be Santa for this event. The application store kid  information and 
+parents candidation. After completing the registrations an algorith choose a kid for every parent and chose the Santa. Server send information about road-condition, wether, etc. 
+to help Santa with this activity.
