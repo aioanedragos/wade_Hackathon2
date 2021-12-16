@@ -1,0 +1,84 @@
+<owl:Class rdf:about="http://visualdataweb.org/santapropertyList#kid">
+ 
+    <rdfs:label>The kid</rdfs:label>
+    <rdfs:comment>The kid has the next subclass</rdfs:comment
+ 
+</owl:Class>
+
+
+<rdfs:serialization> 
+  <rdfs:assertions href="http://www.bar.com/some.doc"> 
+    <bib:interests>interests</bib:interests> 
+  </rdfs:assertions> 
+</rdfs:serialization>
+
+
+
+<owl:Class rdf:about="http://visualdataweb.org/santapropertyList#interests">
+
+    <rdfs:subClassOf rdf:resource="http://visualdataweb.org/santapropertyList#kid"/>
+    <rdfs:label>Interests</rdfs:label>
+    <rdfs:comment>Interests for a kid</rdfs:comment>
+    <rdfs:assertions href="http://www.bar.com/some.doc"> 
+        <bib:interests> 
+            <rdfs:resource> 
+                <bib:interest1>toys</bib:interest1> 
+                <bib:interest2>cars</bib:interest2> 
+                <bib:interest3>planets</bib:interest3> 
+            </rdfs:resource> 
+        </bib:interests> 
+    </rdfs:assertions> 
+</owl:Class>
+
+
+
+=========================================================================================================
+ <rdfs:serialization> 
+  <rdfs:assertions href="http://www.bar.com/some.doc"> 
+    <bib:demographic_profile>demographic_profile</bib:demographic_profile> 
+  </rdfs:assertions> 
+</rdfs:serialization>
+
+
+
+<owl:Class rdf:about="http://visualdataweb.org/santapropertyList#demographic_profile">//===============================
+
+    <rdfs:subClassOf rdf:resource="http://visualdataweb.org/santapropertyList#kid"/>
+    <rdfs:label>demographic_profile</rdfs:label>
+    <rdfs:comment>Demografic profile for a kid</rdfs:comment>
+    <rdfs:assertions href="http://www.bar.com/some.doc"> 
+        <bib:demographic_profile> 
+            <rdfs:resource> 
+                <bib:gender>male</bib:gender> 
+                <bib:height>175</bib:height> 
+                <bib:location>rural</bib:locationrural> 
+            </rdfs:resource> 
+        </bib:demographic_profile> 
+    </rdfs:assertions> 
+</owl:Class>
+
+
+
+
+=========================================================================================================
+ <rdfs:serialization> 
+  <rdfs:assertions href="http://www.bar.com/some.doc"> 
+    <bib:road_conditions>road_conditions</bib:road_conditions> 
+  </rdfs:assertions> 
+</rdfs:serialization>
+
+
+
+<owl:Class rdf:about="http://visualdataweb.org/santapropertyList#road_conditions">//===============================
+
+    <rdfs:subClassOf rdf:resource="http://visualdataweb.org/santapropertyList#kid"/>
+    <rdfs:label>road_conditions</rdfs:label>
+    <rdfs:comment>Demografic profile for a kid</rdfs:comment>
+    <rdfs:assertions href="http://www.bar.com/some.doc"> 
+        <bib:road_conditions> 
+            <rdfs:resource> 
+                <bib:state>bad</bib:state> 
+            </rdfs:resource> 
+        </bib:road_conditions> 
+    </rdfs:assertions> 
+</owl:Class>
